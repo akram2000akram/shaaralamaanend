@@ -3,11 +3,11 @@
     "use strict";
 
     // Page loading animation
-    $(window).on('load', function() {
+    // $(window).on('load', function() {
 
-        $('#js-preloader').addClass('loaded');
+    //     $('#js-preloader').addClass('loaded');
 
-    });
+  //  });
 
 
     $(window).scroll(function() {
@@ -182,13 +182,13 @@
             });
         }
 
-        $("#preloader").animate({
-            'opacity': '0'
-        }, 600, function() {
-            setTimeout(function() {
-                $("#preloader").css("visibility", "hidden").fadeOut();
-            }, 300);
-        });
+        // $("#preloader").animate({
+        //     'opacity': '0'
+        // }, 600, function() {
+        //     setTimeout(function() {
+        //         $("#preloader").css("visibility", "hidden").fadeOut();
+        //     }, 300);
+        // });
     });
 
     const dropdownOpener = $('.main-nav ul.nav .has-sub > a');
